@@ -6,6 +6,6 @@ public class Main {
         mercedes.move(40, 0);
         mercedes.accelerate(20);
         mercedes.accelerate(-60);
-        System.out.println("this is a test");
+        //System.out.println("this is a test");
     }
 }
