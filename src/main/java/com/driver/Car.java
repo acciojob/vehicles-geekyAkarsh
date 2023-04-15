@@ -68,9 +68,6 @@ public class Car extends Vehicle {
         this.currentGear = currentGear;
     }
 
-    //    public  Car(String name){
-//        super(name);
-//    }
     public Car(String name, int wheels, int doors, int gears, boolean isManual, String type, int seats) {
         //Hint: Car extends Vehicle
 
