@@ -4,6 +4,19 @@ public class Vehicle {
 
     private String name;
     private int currentSpeed;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setCurrentDirection(int currentDirection) {
+        this.currentDirection = currentDirection;
+    }
+
     private int currentDirection;
 
     public int getCurrentDirection() {
